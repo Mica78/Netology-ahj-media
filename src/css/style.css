@@ -1,0 +1,153 @@
+.fa-microphone {
+  color: greenyellow;
+}
+
+.fa-video-camera {
+  color: blue;
+}
+
+.fa {
+  margin-left: 6%;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  height: 2rem;
+  margin-top: 1rem;
+  position: fixed;
+  bottom: 1%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#input {
+  width: 80%;
+}
+
+.input__text {
+  border: none;
+  width: 100%;
+}
+
+.input__text:focus {
+  outline: none;
+}
+
+.mediaui {
+  margin-left: -29%;
+  margin-top: -20%;
+  margin-right: auto;
+  padding: 10%;
+  border: 3px double;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(226, 223, 223);
+}
+
+.videoui {
+  width: 70%;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  border: 3px double;
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  position: absolute;
+  background-color: rgb(226, 223, 223);
+  align-items: center;
+}
+
+.video-stream {
+  width: 95%;
+  margin-top: 2%;
+  border: 3px solid gray;
+}
+
+.uicontrols {
+  display: flex;
+  margin: 2%;
+  align-items: center;
+}
+
+.fa-play-circle {
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+.fa-stop-circle {
+  margin-left: 2rem;
+
+}
+
+.duration {
+  display: inline-flex;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.timeline {
+  height: 100%;
+  overflow: hidden;
+}
+
+.timeline-block {
+  border: 1px double;
+  overflow-y: scroll;
+
+  min-height: 100%;
+  margin-bottom: 10%;
+}
+
+.post {
+  margin: 1rem;
+  border: 1px solid;
+  border-radius: 15px;
+  position: relative;
+}
+
+.post-date{
+  text-align: right;
+  font-size: 10px;
+  margin: 12px;
+}
+
+.geo {
+  font-size: 10px;
+  margin: 12px;
+}
+
+.post-data {
+  margin: 12px;
+}
+
+.audio-post {
+  margin-left: 2%;
+}
+
+.video-post {
+  display: block;
+  margin: 0 auto;
+  border: 1px gray solid;
+  border-radius: 15px;
+}
+
+#not-geolocation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  border: 1px gray solid;
+  position: fixed;
+  bottom: 20%;
+  left: 10%;
+  background-color: rgb(219, 218, 218);
+}
